@@ -3,9 +3,12 @@
 }
 
 /* Header and Nav bar Style */
+body {
+    width: 100%;
+}
 
 header {
-    background-color: rgba(223, 223, 236, 0.795);
+    background: rgba(255, 144, 14, 0.1);
     padding: 50px 80px;
 }
 
@@ -69,6 +72,7 @@ nav ul li a {
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 .banner-images {
@@ -76,6 +80,71 @@ nav ul li a {
     width: 100%;
     margin-top: 15px;
 }
+
+/* Main part style */
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Section 1 Style */
+
+.section1-teams-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.teams-images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 50%;
+}
+
+.teams-images {
+    width: 100%;
+
+}
+
+.teams-content-container {
+    width: 50%;
+    /* background-color: brown; */
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+.teams-content-title {
+    width: 468px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.teams-content-description {
+    width: 537px;
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+}
+
+.quick-list {
+    color: rgb(114, 114, 114);
+}
+
+.features {
+    color: rgb(255, 144, 14);
+}
+
+
+
+
+
 
 /* Responsive Style For Small Device */
 
