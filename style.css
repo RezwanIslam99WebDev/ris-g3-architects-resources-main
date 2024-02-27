@@ -141,10 +141,49 @@ main {
     color: rgb(255, 144, 14);
 }
 
+/* --------------------------- */
 
+.section2-features-love-enjoy {
+    display: flex;
+}
 
+/* Section 3 Some Facts Style */
 
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.facts-card-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    /* text-align: center; */
+    padding: 50px 30px;
+}
+
+.card-stats {
+    /* width: 55px;
+    height: 53px; */
+    color: rgb(66, 66, 66);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card-title {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
 
 /* Responsive Style For Small Device */
 
@@ -156,6 +195,23 @@ main {
     nav {
         flex-direction: column;
     }
+
+    .section1-teams-container {
+        flex-direction: column;
+    }
+
+    .teams-images-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content-container {
+        width: 100%;
+        /* background-color: brown; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 /* Responsive Style For Medium Device */
